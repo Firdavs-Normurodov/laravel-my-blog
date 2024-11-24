@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "public/build/*",
-        "use": "@vercel/static"
-      }
-    ],
     "functions": {
       "api/index.php": {
         "runtime": "vercel-php@0.6.0"
@@ -19,9 +13,10 @@
     ],
     "env": {
       "APP_ENV": "production",
-      "APP_DEBUG": "true",
+      "APP_DEBUG": "false",
       "APP_URL": "https://your-project-name.vercel.app",
       "APP_KEY": "base64:HY9nFoYsovH/nyw4bZnBQlKE5GAKYIDsp3W8r5ILJtw=",
+  
       "CACHE_DRIVER": "array",
       "LOG_CHANNEL": "stderr",
       "SESSION_DRIVER": "cookie"
