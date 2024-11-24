@@ -15,7 +15,7 @@
     "env": {
       "APP_ENV": "production",
       "APP_DEBUG": "true",
-      "APP_URL": "https://your-project-name.vercel.app",
+      "APP_URL": "https://laravel-my-blog-5yjk.vercel.app/",
       "APP_KEY": "base64:HY9nFoYsovH/nyw4bZnBQlKE5GAKYIDsp3W8r5ILJtw=",
       "CACHE_DRIVER": "array",
       "LOG_CHANNEL": "stderr",
